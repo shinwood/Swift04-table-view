@@ -23,9 +23,9 @@
 
 6. 在 `AlbumView` 中定义 `unwindToAlbumList`，接收 segue 回来的事件
 
-\\\Swift
+```Swift
 @IBAction func unwindToAlbumList(sender: UIStoryboardSegue)
-\\\
+```
 
 7. 将 `Save` Ctrl + 拖动到 `Exit` 按钮，使得 Segue 生效
 
