@@ -11,7 +11,7 @@
 ## 原理
 写这个 App 花了一下午的时间，有必要写一下思路。
 
-1. 建立 2 个 ViewController，分别是 `AlbumView` 和 `NewAlbum`，对应列表展示和新建专辑
+1. 建立 2 个 ViewController，分别是 `Album` 和 `NewAlbum`，对应列表展示和新建专辑
 
 2. 建立 2 个 Model，`Album` 和 `AlbumManager`，`Album` 用于定义专辑的数据模型，`AlbumManager` 用来处理新建专辑，MVC 中的 M 层
 
